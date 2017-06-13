@@ -6,10 +6,8 @@
 <link rel="stylesheet" href="style.css"/>
 </head>
 <body style="">
-
 <?php
 include("config.php");
-
 if(isset($_REQUEST['username']))
 {
  $username=stripslashesh($_REQUEST['username']);
@@ -55,6 +53,7 @@ if(isset($_REQUEST['username']))
 </table>
 </form>
 </div>
-<?php } ?>
+<?php } 
+}?>
 </body>
 </html>
