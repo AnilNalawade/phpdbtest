@@ -28,7 +28,7 @@ VALUES ('$name','$username', '$password', '$email','$contact','$qual','$country'
         if($result){
             echo "<div>
 <h1 style='margin-top:300px;'>You are registered successfully.</h1>
-<p style=' font-size: 150%;'>Click here to <a href='index.php'>Login</a></p></div>";
+<p style=' font-size: 150%;'>Click here to <a href='login.php'>Login</a></p></div>";
         }
     }else{
 ?>
