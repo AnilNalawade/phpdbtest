@@ -21,9 +21,9 @@ if (isset($_REQUEST['username'])){
 	$contact = stripslashes($_REQUEST['contact']);
 	$qual = stripslashes($_REQUEST['qual']);
 	$country = stripslashes($_REQUEST['country']);
-	$trn_date = date("Y-m-d H:i:s");
-        $query = "INSERT into `users` (name,username, password, email,contact,qual,country, trn_date)
-VALUES ('$name','$username', '$password', '$email','$contact','$qual','$country', '$trn_date')";
+	
+        $query = "INSERT into `register` (name,username, password, email,contact,qual,country)
+VALUES ('$name','$username', '$password', '$email','$contact','$qual','$country')";
         $result = mysqli_query($db,$query);
         if($result){
             echo "<div>
