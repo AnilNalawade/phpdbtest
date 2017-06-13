@@ -22,7 +22,6 @@ if(isset($_REQUEST['username']))
  {
   echo "<div><h1 style='margin-top:300px;'>You are registered successfully.</h1></div>";
  }
-}
  else
  {
  ?>
@@ -34,10 +33,10 @@ if(isset($_REQUEST['username']))
  <td><label> User Name  </label></td><td><input type="text" name="username" required /></td>
  </tr>
  <tr>
- <td><label> Password  </label></td><td><input type="text" name="password" required /></td>
+ <td><label> Password  </label></td><td><input type="password" name="password" required /></td>
  </tr>
 <tr>
- <td><label> Email  </label></td><td><input type="text" name="email" required /></td>
+ <td><label> Email  </label></td><td><input type="email" name="email" required /></td>
  </tr>
 <tr> 
 <td><label> Qualification </label></td><td><select name="qual">
