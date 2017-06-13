@@ -7,7 +7,7 @@ if($conn === false)
  die("error:" . mysql_connect_error());
 }
 
-$sql="create table test(id int,name varchar(20))";
+$sql="create table register(name varchar(200),username varchar(200),password varchar(200),email varchar(200),contactno varchar(200),qual varchar(200),country varchar(200))";
 
 if(mysqli_query($conn,$sql))
 {
