@@ -22,6 +22,7 @@ if(isset($_REQUEST['username']))
  {
   echo "<div><h1 style='margin-top:300px;'>You are registered successfully.</h1></div>";
  }
+}
  else
  {
  ?>
@@ -54,6 +55,6 @@ if(isset($_REQUEST['username']))
 </form>
 </div>
 <?php } 
-}?>
+?>
 </body>
 </html>
