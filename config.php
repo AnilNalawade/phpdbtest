@@ -1,5 +1,5 @@
 <?php
-   define('DB_SERVER','10.128.18.155');
+   define('DB_SERVER','10.129.128.163');
    define('DB_USERNAME','AnilNalawade');
    define('DB_PASSWORD','Nilnil123'); 
    define('DB_DATABASE','sampledb');
