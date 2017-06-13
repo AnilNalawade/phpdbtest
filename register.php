@@ -10,10 +10,10 @@
 include("config.php");
 if(isset($_REQUEST['username']))
 {
- $username=stripslashesh($_REQUEST['username']);
- $password=stripslashesh($_REQUEST['password']);
- $email=stripslashesh($_REQUEST['email']);
- $qual=stripslashesh($_REQUEST['qualification']);
+ $username=stripslashes($_REQUEST['username']);
+ $password=stripslashes($_REQUEST['password']);
+ $email=stripslashes($_REQUEST['email']);
+ $qual=stripslashes($_REQUEST['qualification']);
  
  $sql="insert into register values($username,$password,$email,$qual)";
  $result = mysqli_query($db,$sql);
