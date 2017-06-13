@@ -22,7 +22,7 @@ if (isset($_REQUEST['username'])){
 	$qual = stripslashes($_REQUEST['qual']);
 	$country = stripslashes($_REQUEST['country']);
 	
-        $query = "INSERT into `register` (name,username, password, email,contact,qual,country)
+        $query = "INSERT into `register` (name,username, password, email,contactno,qual,country)
 VALUES ('$name','$username', '$password', '$email','$contact','$qual','$country')";
         $result = mysqli_query($db,$query);
         if($result){
